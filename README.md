@@ -1,2 +1,2 @@
-# Collaborative-stereo-camera-with-multiple-UAVs.github.io
+# Collaborative-stereo-camera-with-multiple-UAVs
 The video media for collaborative-stereo-camera-with-multiple-UAVs
