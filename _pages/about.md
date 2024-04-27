@@ -11,7 +11,7 @@ redirect_from:
 # About me
 ---
 
-I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong University, China. My research focus is on visual localization and mapping of multiple unmanned aerial vehicles (UAVs), Visual-Inertial Odometry (VIO), and SLAM. I am also experienced in the field of UAV autonomous inspection.
+I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong University, China. My research focus is on visual localization and mapping of multiple unmanned aerial vehicles (UAVs), Visual-Inertial Odometry (VIO), and SLAM. I am also experienced in UAV autonomous inspection.
 <br/>
 
 # Education
@@ -47,7 +47,7 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 <br/>
 <br/>
 
-- ## Flexible-Towed-Aerial-Robot-System-for-Stable-X-ray-Inspection-of-Power-Lines
+- ## Flexible Towed Aerial Robot System for Stable X-ray Inspection of Power Lines
 
   We design a flexible towed aerial robot system for stable X ray inspection of power lines. This project has been successfully appiled in State Grid of China.
   <iframe height=406 width=720 src="../images/Video-A-Flexible-Towed-Aerial-Robot-System-for-Stable-X-ray-Inspection-of-Power-Lines-compressed.mp4">
@@ -60,11 +60,11 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 # National Competition
 ---
 - ## National Intellegent Autonomous Navigation UAV Competition
-  This competition requires UAV detecting circles, and planning its trajectory to avoid obstacles. We won the champion in 2021.
+  This competition requires UAV detecting circles, and planning its trajectory to avoid obstacles. As the team leader, we won the champion in 2021.
   <iframe height=406 width=720 src="../images/offline.mp4">
 
 - ## National High-speed UAV Tracking Competition
-  This competition requires UAV accurately tracking the target carried by a high-speed car. We won the excellent prize in 2020.
+  This competition requires UAV accurately tracking the target carried by a high-speed car. I am the first person in charge to build the hexcoptor, develop visual servo tracking, state fusion, and feedback control. We won the excellent prize in 2020.
   <iframe height=406 width=720 src="../images/high-speed-flight-ruyingsuixing-music-compressed.mp4">
 
 ---
@@ -88,7 +88,7 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 <br/>
 <br/>
 
-- ## Autonomous Quayside Inspection Using Teach and Repeat policy.
+- ## Autonomous Quayside Inspection Using Teach and Repeat Policy.
 
   I simulate inpection scenario in GAZEBO to enable trajectory planning in advance. Then I wirte a IOS App to control the DJI M300 to perform real-world inspection.
   ![zhenhua](../images/zhenhua-all.png "zhenhua"){:width='768'}
@@ -99,6 +99,13 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 
 # Collaboration Joint Research
 ---
+- ## Particle-based Semantic Mapping in Dynamic Environments
+
+  As a collaboration research, we propose a particle-based instance-aware semantic occupancy mapping in dynamic environments.
+  <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4">
+<br/>
+<br/>
+
 - ## Hitchhiker
 
   As a collaboration research, we design a aggressive quadrotor to perching on moving inclined surface using compliant suction cup gripper.
