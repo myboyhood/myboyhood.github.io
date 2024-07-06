@@ -27,7 +27,9 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 ---
 - ## Multi-UAV Collaborative Long-distance Mapping
   
-  Leveraging multiple cameras on multiple UAVs to build a wide-baseline collaborative stereo camera are promising for remote mapping. This work has been submitted to IROS 2024 for revision.
+  Leveraging multiple cameras on multiple UAVs to build a wide-baseline collaborative stereo camera are promising for remote mapping. 
+  
+  **This work has been accepted by IROS 2024 !**
   <iframe height=406 width=720 src="../images/collaborative-stereo-camera-V2-264-compressed.mp4">
 <br/>
 <br/>
@@ -35,7 +37,9 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 
 - ## Real-time Cross-camera Feature Association for Relative Pose Estimation of UAVs
 
-  This work aims to estimate relative pose between two UAVs with common environmental features. we propose a high-rate cross-camera feature association with a dual-channel structure. Then, we develop a Multi-State Constrained Kalman Filter (MSCKF) to estimate relative pose of UAVs.
+  This work aims to estimate relative pose between two UAVs with common environmental features. we propose a high-rate cross-camera feature association with a dual-channel structure. Then, we develop a Multi-State Constrained Kalman Filter (MSCKF) to estimate relative pose of UAVs. 
+
+  **This work has been revised by RAL with encouragement. We have revised and submited. Waiting for publishing soon!**
   <iframe height=406 width=720 src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4">
 <br/>
 <br/>
@@ -43,6 +47,8 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 - ## Robust Visual Positioning of the UAV for the Under Bridge Inspection With a Ground Guided Vehicle
 
   For regular defect inspection of the bridge’s bottom. we design a ground–air mobile system and a dual-source positioning algorithm to enhance the robustness of the UAV’s positioning.
+
+  **This work has been accepted by IEEE Transactions on Instrumentation and Measurement 2022 !**
   <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4">
 <br/>
 <br/>
@@ -50,6 +56,8 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 - ## Flexible Towed Aerial Robot System for Stable X-ray Inspection of Power Lines
 
   We design a flexible towed aerial robot system for stable X ray inspection of power lines. This project has been successfully appiled in State Grid of China.
+
+  **This work has been accepted by IEEE International Conference on Robotics and Biomimetics 2023**
   <iframe height=406 width=720 src="../images/Video-A-Flexible-Towed-Aerial-Robot-System-for-Stable-X-ray-Inspection-of-Power-Lines-compressed.mp4">
 
 ---
@@ -101,7 +109,9 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 ---
 - ## Particle-based Semantic Mapping in Dynamic Environments
 
-  As a collaboration research, we propose a particle-based instance-aware semantic occupancy mapping in dynamic environments.
+  As a collaboration research, we propose a particle-based instance-aware semantic occupancy mapping in dynamic environments. 
+  
+  **This work has been revised by TRO with encouragement, we are currently revising it ! Waiting for our publishing soon !**
   <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4">
 <br/>
 <br/>
@@ -109,6 +119,8 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 - ## Hitchhiker
 
   As a collaboration research, we design a aggressive quadrotor to perching on moving inclined surface using compliant suction cup gripper.
+
+  **This work has been accepted by IEEE Transactions on Automation Science and Engineering 2023**
   ![graphic-abstract](../images/graphic-abstract.png "graphic-abstract"){:width='720'}
   <iframe height=396 width=704 src="../images/TASE-hitchhiker-video-music-compressed.mp4">
 <br/>
@@ -117,4 +129,6 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 - ## Fast Flight with Fuzzy Decision and Multimodal Control
 
   As a collaboration research, we develop a fast flight of the flying robot with fuzzy decision and multimodal control tackling uncertainties.
+
+  **This work has been accepted by IEEE Transactions on Industrial Electronics**
   <iframe height=396 width=704 src="../images/Video-Fast_Flight_of_the_Flying_Robot_With_Fuzzy_Decision_and_Multimodal_Control_Tackling_Uncertainties-compressed.mp4">
