@@ -11,7 +11,11 @@ redirect_from:
 # About me
 ---
 
-I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong University, China. My research focus is on visual localization and mapping of multiple unmanned aerial vehicles (UAVs), Visual-Inertial Odometry (VIO), and SLAM. I am also experienced in UAV autonomous inspection.
+I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong University, China. My research focuses on visual localization and mapping of multiple unmanned aerial vehicles (UAVs), Visual-Inertial Odometry (VIO), and SLAM. 
+
+As the team leader, I have won champion in several national UAV competitions. Thus, I am proficient in the full range of technologies involved in the mechanical design of drones, hardware circuit, perception and localization, as well as planning and control processes. 
+
+I am also experienced in UAV autonomous industrial inspection. I am fully responsible visual aerial inspection with ZPMC, and power line contact-inspection with state grid.
 <br/>
 
 # Education
@@ -39,7 +43,7 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 
   This work aims to estimate relative pose between two UAVs with common environmental features. we propose a high-rate cross-camera feature association with a dual-channel structure. Then, we develop a Multi-State Constrained Kalman Filter (MSCKF) to estimate relative pose of UAVs. 
 
-  **This work has been revised by RAL with encouragement. We have revised and submited. Waiting for publishing soon!**
+  **This work has been revised by IEEE RAL with encouragement. We have revised and submited. Waiting for publishing soon!**
   <iframe height=406 width=720 src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4">
 <br/>
 <br/>
@@ -53,12 +57,16 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 <br/>
 <br/>
 
-- ## Flexible Towed Aerial Robot System for Stable X-ray Inspection of Power Lines
+- ## Semantic Visual-Inertial Odometry for Paticle-based Mapping in Dynamic Enviroment
+  we propose a particle-based instance-aware semantic occupancy mapping in dynamic environments. 
+  I design a semantic VIO algorithm based on OpenVINS, supporting both tracking moving objects and self-localization in dynamic environment.
+  ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim")
+  
+  **This work has been revised by IEEE TRO with encouragement, we are currently revising it ! Waiting for our publishing soon !**
+  <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4">
 
-  We design a flexible towed aerial robot system for stable X ray inspection of power lines. This project has been successfully appiled in State Grid of China.
-
-  **This work has been accepted by IEEE International Conference on Robotics and Biomimetics 2023**
-  <iframe height=406 width=720 src="../images/Video-A-Flexible-Towed-Aerial-Robot-System-for-Stable-X-ray-Inspection-of-Power-Lines-compressed.mp4">
+<br/>
+<br/>
 
 ---
 <br/>
@@ -75,6 +83,11 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
   This competition requires UAV accurately tracking the target carried by a high-speed car. I am the first person in charge to build the hexcoptor, develop visual servo tracking, state fusion, and feedback control. We won the excellent prize in 2020.
   <iframe height=406 width=720 src="../images/high-speed-flight-ruyingsuixing-music-compressed.mp4">
 
+- ## Champion of National ROBOCON 2018 
+
+  I am mainly responsible for electric harware design, such as motor driver and MCU PCB. I also engage in the mechanical design of launch part of the wheeled robot.
+  ![Champion of ROBOCON](../images/robocon.jpg "Champion of ROBOCON"){:width='768'}
+
 ---
 <br/>
 <br/>
@@ -89,10 +102,13 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 <br/>
 <br/>
 
-- ## Visual-Inertial Odometry in dynamic Enviroment
 
-  I design a VIO algorithm based on OpenVINS, which applied for dynamic environment. The dynamic and static feature classifed semantic network.
-  ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim")
+- ## Flexible Towed Aerial Robot System for Stable X-ray Inspection of Power Lines
+
+  We design a flexible towed aerial robot system for stable X ray inspection of power lines. This project has been successfully appiled in State Grid of China.
+
+  **This work has been accepted by IEEE International Conference on Robotics and Biomimetics 2023**
+  <iframe height=406 width=720 src="../images/Video-A-Flexible-Towed-Aerial-Robot-System-for-Stable-X-ray-Inspection-of-Power-Lines-compressed.mp4">
 <br/>
 <br/>
 
@@ -107,14 +123,6 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 
 # Collaboration Joint Research
 ---
-- ## Particle-based Semantic Mapping in Dynamic Environments
-
-  As a collaboration research, we propose a particle-based instance-aware semantic occupancy mapping in dynamic environments. 
-  
-  **This work has been revised by TRO with encouragement, we are currently revising it ! Waiting for our publishing soon !**
-  <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4">
-<br/>
-<br/>
 
 - ## Hitchhiker
 
