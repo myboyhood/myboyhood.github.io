@@ -15,7 +15,7 @@ I am a Ph.D. candidate at robotics institute of the Shanghai Jiao Tong Universit
 
 As the team leader, I have won champion in several national UAV competitions. Thus, I am proficient in the full range of technologies involved in the mechanical design of drones, hardware circuit, perception and localization, as well as planning and control processes. 
 
-I am also experienced in UAV autonomous industrial inspection. I am fully responsible visual aerial inspection with ZPMC, and power line contact-inspection with state grid.
+I am also experienced in UAV autonomous industrial inspection. I am fully responsible for visual aerial inspection with ZPMC, and power line contact-inspection with State Grid.
 <br/>
 
 # Education
@@ -32,8 +32,8 @@ I am also experienced in UAV autonomous industrial inspection. I am fully respon
 - ## Multi-UAV Collaborative Long-distance Mapping
   
   Leveraging multiple cameras on multiple UAVs to build a wide-baseline collaborative stereo camera are promising for remote mapping. 
-  
   **This work has been accepted by IROS 2024 !**
+  ![collaborative_stereo](../images/collaborative_stereo_illustration-v4.png "collaborative_stereo"){:width='768'}
   <iframe height=406 width=720 src="../images/collaborative-stereo-camera-V2-264-compressed.mp4">
 <br/>
 <br/>
