@@ -19,7 +19,7 @@ redirect_from:
 
 # 科研经历
 ---
-研究课题集中在多机协作系统中定位与感知建图，在未知复杂城镇环境下，致力于构建一个多机紧密协作系统。研究对象包含地面车辆与空中无人机视觉协作系统，以及多无人机动态宽基线立体相机协作系统。研究算法关注于多机间基于多传感器融合的实时鲁棒相对定位，多机视觉特征实时关联，以及多机多视角大尺度地图感知与构建，以及面向多机协同的全向视觉惯性里程计。
+研究课题集中在多机协作系统中定位与感知建图，在未知复杂城镇环境下，针对单机定位鲁棒性和感知范围不足的问题，致力于构建一个多机紧密协作系统。研究对象包含地-空车辆与无人机视觉协作系统，以及空-空多无人机协作系统（动态宽基线立体相机）。研究算法关注于多机间基于多传感器融合的实时鲁棒相对定位，多机视觉特征实时关联，以及多机多视角大尺度地图感知与构建，以及面向多机协同的全向视觉惯性里程计。
 
 - **博士研究课题**
   - 多无人机动态宽基线协作立体相机系统
@@ -69,7 +69,7 @@ redirect_from:
 
 - ## 基于地空协作系统的鲁棒视觉定位
   针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光源的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
-  （**测量与仪器顶刊 IEEE TIM 2022 发表**）
+  （**测量与仪器顶刊 IEEE Transactions on Instrumentation and Measurement 2022 发表**）
   <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4">
 <br/>
 <br/>
@@ -114,7 +114,7 @@ redirect_from:
 # 工程项目
 ---
 - ## 面向高压线X光巡检的柔性拖曳空中巡检机器人
-  针对高压线耐张线夹接触式巡检任务，作为第一负责人完成全部机械、电控、视觉辅助系统的无人机设计与搭建。国内首次实现无人机带载X光设备精准降落，远程视觉辅助，遥操作控制。成功交付山东国家电网。（该工作在IEEE International Conference on Robotics and Biomimetics 2023 发表）
+  针对高压线耐张线夹接触式巡检任务，作为第一负责人完成全部机械、电控、视觉辅助系统的无人机设计与搭建。国内首次实现无人机带载X光设备精准降落，远程视觉辅助，遥操作控制。成功交付山东国家电网。（**发表在IEEE International Conference on Robotics and Biomimetics 2023**）
   <iframe height=406 width=720 src="../images/Video-A-Flexible-Towed-Aerial-Robot-System-for-Stable-X-ray-Inspection-of-Power-Lines-compressed.mp4">
 <br/>
 <br/>
@@ -132,7 +132,7 @@ redirect_from:
 
 - ## 搭便车：无人机动态吸附移动车辆
   提出动态多模式搜索策略提升最优时间轨迹规划效率。首次实现无人机实时动态规划与精准末端控制，并设计多角度吸附装置，无人机得以敏捷姿态吸附到移动目标斜面，可提供侦查任务，被IEEE封面高度报道。
-  （该工作在自动化顶刊 IEEE Transactions on Automation Science and Engineering 2023 发表**
+  （**发表在自动化顶刊 IEEE Transactions on Automation Science and Engineering 2023 发表**）
   ![graphic-abstract](../images/graphic-abstract.png "graphic-abstract"){:width='720'}
   <iframe height=396 width=704 src="../images/TASE-hitchhiker-video-music-compressed.mp4">
 <br/>
@@ -141,5 +141,5 @@ redirect_from:
 - ## 面向不确定性的无人机多模态控制与模糊决策
   针对无人机在密集环境中飞行模式切换问题，提出环境不确定度评估模型，并建立模糊决策，以最小化不确定性的策略，评估无人机最大飞行速度。设计多种多模态飞行控制策略，实现多种复杂环境下高速安全飞行。
 
-  （该工作在工业电子顶刊 IEEE Transactions on Industrial Electronics 2023 发表）
+  （**发表在工业电子顶刊 IEEE Transactions on Industrial Electronics 2023**）
   <iframe height=396 width=704 src="../images/Video-Fast_Flight_of_the_Flying_Robot_With_Fuzzy_Decision_and_Multimodal_Control_Tackling_Uncertainties-compressed.mp4">
