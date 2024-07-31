@@ -9,10 +9,13 @@ redirect_from:
 
 # 教育经历
 ---
-| 学位 | 学校          | 专业                          | 时间       |
+<!-- | 学位 | 学校          | 专业                          | 时间       |
 |------|---------------|-------------------------------|------------|
 | 博士 | 上海交通大学 **(GPA 排名 前5%)** | 机械工程                      | 2019 - 2025|
-| 本科 | 武汉大学 **(GPA 排名 1/133)** | 机械设计制造及其自动化        | 2015 - 2019 |
+| 本科 | 武汉大学 **(GPA 排名 1/133)** | 机械设计制造及其自动化        | 2015 - 2019 | -->
+
+- **博士**  上海交通大学 **(GPA 排名 前5%)**  机械工程                   2019 - 2025
+- **本科**  武汉大学 **(GPA 排名 1/133)**     机械设计制造及其自动化      2015 - 2019
 
 # 科研经历
 ---
@@ -22,7 +25,7 @@ redirect_from:
   - 多无人机动态宽基线协作立体相机系统
   - 地空协同多机视觉协同定位与伺服控制
   - 多传感器融合的多无人机协同相对定位(视觉观测/共视环境特征/IMU/超带宽UWB)
-  - 全向视觉无人机视觉惯性里程计(VIO)
+  - 面向多机场景的全向视觉无人机视觉惯性里程计(VIO)
   - 语义视觉惯性里程计与动态地图构建
 
 - **竞赛经历**
@@ -51,7 +54,7 @@ redirect_from:
 # 主干科研课题 
 ---
 - ## 多无人机协作立体相机系统
-  **使用多架无人机上相机组成宽基线协作立体相机系统，旨在增强系统远距离感知地图能力**（机器人顶会IROS 2024发表）
+  使用多架无人机上相机组成宽基线协作立体相机系统，旨在增强系统远距离感知地图能力（**机器人顶会IROS 2024发表**）
   ![collaborative_stereo](../images/collaborative_stereo_illustration-v4.png "collaborative_stereo"){:width='768'}
   <iframe height=406 width=720 src="../images/collaborative-stereo-camera-V2-264-compressed.mp4">
 <br/>
@@ -59,33 +62,29 @@ redirect_from:
 
 
 - ## 多机共视视觉特征实时关联与相对定位
-  该工作利用共视环境特征实现多架无人机的实时相对定位，在前端，我们提出一个双通道结构，用于实现高帧率多相机的实时视觉特征关联，在后端我们针对多机系统，设计了一个多状态约束的卡尔曼滤波MSCKF，用于估计飞机之间的外参。（机器人高水平期刊 IEEE RAL 2024 小修接收）
+  该工作利用共视环境特征实现多架无人机的实时相对定位，在前端，我们提出一个双通道结构，用于实现高帧率多相机的实时视觉特征关联，在后端我们针对多机系统，设计了一个多状态约束的卡尔曼滤波MSCKF，用于估计飞机之间的外参。（**机器人高水平期刊 IEEE RAL 2024 小修接收**）
   <iframe height=406 width=720 src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4">
 <br/>
 <br/>
 
 - ## 基于地空协作系统的鲁棒视觉定位
   针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光源的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
-  （测量与仪器顶刊 IEEE TIM 2022 发表）
+  （**测量与仪器顶刊 IEEE TIM 2022 发表**）
   <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4">
 <br/>
 <br/>
       
 - ## 面向动态环境的语义视觉惯性里程计与粒子占据地图
-  面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现车辆自定位，并同步构建一个包含动态物体的占据地图。（机器人顶刊 IEEE TRO 2024 在审小修中）
+  面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现车辆自定位，并同步构建一个包含动态物体的占据地图。（**机器人顶刊 IEEE TRO 2024 在审小修中**）
   ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim")
   <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4">
 <br/>
 <br/>
 
 - ## 面向多机协同的全向鱼眼视觉惯性里程计系统
-  搭建视觉
-  I design a visual-inertial odometry with four fisheye cameras (220 degrees) as follows. The SuperPoint is for multi-UAV cross-camera feature matching. The Fast corner is extracted with grid spaces. Then LK optical flow are used for local feature association.
+  设计搭建四目鱼眼相机的视觉惯性里程计，为多机协作提供全向观测。
   ![fisheye VIO](../images/four-fisheye-cameras.png "fisheye VIO"){:width='768'}
   <iframe height=396 width=720 src="../images/VIO-omni-fisheye-cameras-H264.mp4">
-<br/>
-<br/>
-
 <br/>
 <br/>
 
