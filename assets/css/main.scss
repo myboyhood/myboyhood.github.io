@@ -45,17 +45,38 @@ h1 {
     scroll-margin-top: 100px; // 根据页眉的高度进行调整
 }
 
-/* ===== Custom Sidebar Positioning ===== */
-.sidebar {
-    font-size: 18px; /* 根据需要调整字体大小 */
+/* 保持左侧内容的位置不变 */
+.sidebar-content {
+    position: relative;
+    /* 其他样式保持不变 */
+}
+
+/* 调整导航栏的位置 */
+.sidebar nav {
+    font-size: 25px; /* 根据需要调整字体大小 */
     font-weight: bold; /* 可选：加粗字体 */
-    position: fixed;
-    left: 0;
-    bottom: 10%;
-    width: 250px;
-    transform: translateY(50%);
-    margin-top: -50%;
-    background-color: #f8f9fa;
-    padding: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  }
+    position: fixed; /* 固定位置，使其不随页面滚动 */
+    left: 0; /* 左侧对齐 */
+    top: 60%; /* 调整top的位置以放置导航栏 */
+    transform: translateY(-50%); /* 向上移动50% */
+    width: 250px; /* 导航栏宽度 */
+    background-color: #f8f9fa; /* 可选: 背景颜色 */
+    padding: 20px; /* 内边距 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 可选: 阴影效果 */
+}
+
+
+// /* ===== Custom Sidebar Positioning ===== */
+// .sidebar {
+//     font-size: 25px; /* 根据需要调整字体大小 */
+//     font-weight: bold; /* 可选：加粗字体 */
+//     position: fixed;
+//     left: 0;
+//     bottom: 10%;
+//     width: 250px;
+//     transform: translateY(-50%);
+//     margin-top: -50%;
+//     background-color: #f8f9fa;
+//     padding: 20px;
+//     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+//   }
