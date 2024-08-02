@@ -57,7 +57,7 @@ h1 {
     font-weight: normal; /* 可选：加粗字体 */
     position: fixed; /* 固定位置，使其不随页面滚动 */
     left: 0; /* 左侧对齐 */
-    top: 400px; /* 调整top的位置以放置导航栏 */
+    top: 350px; /* 调整top的位置以放置导航栏 */
     // transform: translateY(-50%); /* 向上移动50% */
     width: 250px; /* 导航栏宽度 */
 
@@ -76,6 +76,6 @@ h1 {
 //     color: #0056b3; /* 添加悬停效果，稍微加深颜色 */
 // }
 
-.sidebar nav h2 {
-    color: #0056b3; /* 导航标题颜色 */
-}
+// .sidebar nav h2 {
+//     color: #0056b3; /* 导航标题颜色 */
+// }
