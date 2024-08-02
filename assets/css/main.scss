@@ -57,26 +57,25 @@ h1 {
     font-weight: bold; /* 可选：加粗字体 */
     position: fixed; /* 固定位置，使其不随页面滚动 */
     left: 0; /* 左侧对齐 */
-    top: 60%; /* 调整top的位置以放置导航栏 */
+    top: 55%; /* 调整top的位置以放置导航栏 */
     // transform: translateY(-50%); /* 向上移动50% */
     width: 250px; /* 导航栏宽度 */
-    background-color: #f8f9fa; /* 可选: 背景颜色 */
-    padding: 20px; /* 内边距 */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 可选: 阴影效果 */
+
+    background-color: rgba(240, 248, 255, 0.9); /* 使用淡蓝色，增加透明度 */
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 保留轻微阴影 */
+    border-radius: 8px; /* 添加圆角，使其更柔和 */
 }
 
+.sidebar a {
+    color: #007BFF; /* 使用更柔和的蓝色 */
+    font-weight: normal; /* 取消加粗，使文字更自然 */
+}
 
-// /* ===== Custom Sidebar Positioning ===== */
-// .sidebar {
-//     font-size: 25px; /* 根据需要调整字体大小 */
-//     font-weight: bold; /* 可选：加粗字体 */
-//     position: fixed;
-//     left: 0;
-//     bottom: 10%;
-//     width: 250px;
-//     transform: translateY(-50%);
-//     margin-top: -50%;
-//     background-color: #f8f9fa;
-//     padding: 20px;
-//     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-//   }
+.sidebar a:hover {
+    color: #0056b3; /* 添加悬停效果，稍微加深颜色 */
+}
+
+.sidebar nav h2 {
+    color: #0056b3; /* 导航标题颜色 */
+}
