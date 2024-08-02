@@ -72,6 +72,20 @@ author:
   youtube          : # Username
   zhihu            : # URL
 
+# Navigation settings
+navigation:
+  - name: "教育背景"
+    url: "#1-教育背景"
+  - name: "科研经历概述"
+    url: "#2-科研经历概述"
+  - name: "主干科研课题图文"
+    url: "#3-主干科研课题图文"
+  - name: "国家级竞赛"
+    url: "#4-国家级竞赛"
+  - name: "工程项目"
+    url: "#5-工程项目"
+  - name: "合作课题"
+    url: "#6-合作课题"
 
 
 # Site Settings
