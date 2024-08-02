@@ -54,10 +54,10 @@ h1 {
 /* 调整导航栏的位置 */
 .sidebar nav {
     font-size: 25px; /* 根据需要调整字体大小 */
-    font-weight: bold; /* 可选：加粗字体 */
+    font-weight: normal; /* 可选：加粗字体 */
     position: fixed; /* 固定位置，使其不随页面滚动 */
     left: 0; /* 左侧对齐 */
-    top: 55%; /* 调整top的位置以放置导航栏 */
+    top: 400px; /* 调整top的位置以放置导航栏 */
     // transform: translateY(-50%); /* 向上移动50% */
     width: 250px; /* 导航栏宽度 */
 
@@ -67,14 +67,14 @@ h1 {
     border-radius: 8px; /* 添加圆角，使其更柔和 */
 }
 
-.sidebar a {
-    color: #007BFF; /* 使用更柔和的蓝色 */
-    font-weight: normal; /* 取消加粗，使文字更自然 */
-}
+// .sidebar a {
+//     color: #007BFF; /* 使用更柔和的蓝色 */
+//     font-weight: normal; /* 取消加粗，使文字更自然 */
+// }
 
-.sidebar a:hover {
-    color: #0056b3; /* 添加悬停效果，稍微加深颜色 */
-}
+// .sidebar a:hover {
+//     color: #0056b3; /* 添加悬停效果，稍微加深颜色 */
+// }
 
 .sidebar nav h2 {
     color: #0056b3; /* 导航标题颜色 */
