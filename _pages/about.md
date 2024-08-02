@@ -174,8 +174,7 @@ toc: true
 ---
 
 - ## 6.1 搭便车：无人机动态吸附移动车辆
-  提出动态多模式搜索策略提升最优时间轨迹规划效率。首次实现无人机实时动态规划与精准末端控制，并设计多角度吸附装置，无人机得以敏捷姿态吸附到移动目标斜面，可提供侦查任务，被IEEE封面高度报道。
-  （**发表在自动化顶刊 IEEE Transactions on Automation Science and Engineering 2023 发表**）
+  提出动态多模式搜索策略提升最优时间轨迹规划效率。首次实现无人机实时动态规划与精准末端控制，并设计多角度吸附装置，无人机得以敏捷姿态吸附到移动目标斜面，可提供侦查任务，被IEEE封面高度报道。（**发表在自动化顶刊 IEEE Transactions on Automation Science and Engineering 2023 发表**）
   ![graphic-abstract](../images/graphic-abstract.png "graphic-abstract"){:width='720'}
   <!-- <iframe height=396 width=704 src="../images/TASE-hitchhiker-video-music-compressed.mp4"> -->
 
@@ -187,7 +186,6 @@ toc: true
 
 - ## 6.2 面向不确定性的无人机多模态控制与模糊决策
   针对无人机在密集环境中飞行模式切换问题，提出环境不确定度评估模型，并建立模糊决策，以最小化不确定性的策略，评估无人机最大飞行速度。设计多种多模态飞行控制策略，实现多种复杂环境下高速安全飞行。
-
   （**发表在工业电子顶刊 IEEE Transactions on Industrial Electronics 2023**）
   <!-- <iframe height=396 width=704 src="../images/Video-Fast_Flight_of_the_Flying_Robot_With_Fuzzy_Decision_and_Multimodal_Control_Tackling_Uncertainties-compressed.mp4"> -->
   ![fuzzy_model_control](../images/fuzzy_model_control.png "fuzzy_model_control"){:width='720'}
