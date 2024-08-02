@@ -39,3 +39,22 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// 自定义样式：调整 h1 的滚动偏移
+h1 {
+    scroll-margin-top: 100px; // 根据页眉的高度进行调整
+}
+
+/* ===== Custom Sidebar Positioning ===== */
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 10%;
+    width: 250px;
+    transform: translateY(50%);
+    margin-top: -50%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* 确保侧边栏在其他元素之上 */
+  }
