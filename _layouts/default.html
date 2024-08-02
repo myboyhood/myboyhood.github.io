@@ -25,6 +25,19 @@ layout: compress
       </footer>
     </div>
 
+    <div class="sidebar">
+      {% if site.author.navigation %}
+        <nav>
+          <h2>导航栏</h2>
+          <ul>
+            {% for item in site.author.navigation %}
+              <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
+      {% endif %}
+    </div>
+
     {% include scripts.html %}
 
   </body>
