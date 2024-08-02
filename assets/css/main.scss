@@ -53,11 +53,13 @@ h1 {
 
 /* 调整导航栏的位置 */
 .sidebar nav {
+    position: sticky;
+    top: 100px; /* 导航栏距离页面顶部的距离，调整这个值以适应你的布局 */
+    
     font-size: 25px; /* 根据需要调整字体大小 */
     font-weight: normal; /* 可选：加粗字体 */
     position: fixed; /* 固定位置，使其不随页面滚动 */
     left: 0; /* 左侧对齐 */
-    bottom: 20%; /* 调整top的位置以放置导航栏 */
     // transform: translateY(-50%); /* 向上移动50% */
     width: 250px; /* 导航栏宽度 */
 
