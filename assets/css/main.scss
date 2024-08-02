@@ -47,15 +47,15 @@ h1 {
 
 
 .toc {
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 10px;
-    background-color: #ebf4fb; /* 更改为淡蓝色背景 */
+    background-color: transparent; /* 设置为透明 */; /* 更改为淡蓝色背景 */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: none; /* 可选：移除阴影 */
   }
   
   .toc h3 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 22px; /* 调整标题字体大小 */
     font-weight: bold; /* 加粗标题 */
     color: #333; /* 标题字体颜色 */
