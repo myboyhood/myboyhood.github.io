@@ -47,6 +47,8 @@ h1 {
 
 /* ===== Custom Sidebar Positioning ===== */
 .sidebar {
+    font-size: 18px; /* 根据需要调整字体大小 */
+    font-weight: bold; /* 可选：加粗字体 */
     position: fixed;
     left: 0;
     bottom: 10%;
@@ -56,5 +58,4 @@ h1 {
     background-color: #f8f9fa;
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* 确保侧边栏在其他元素之上 */
   }

@@ -339,7 +339,7 @@ compress_html:
 sidebar:
   title: "目录"
   nav:
-    - title: "关于我"
+    - title: "导航栏"
       url: "/about"
       children:
         - title: "1.教育背景"
