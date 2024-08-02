@@ -336,21 +336,21 @@ compress_html:
     envs: development
 
 # Sidebar settings
-# sidebar:
-#   title: "目录"
-#   nav:
-#     - title: "关于我"
-#       url: "/about"
-#       children:
-#         - title: "1.教育背景"
-#           url: "#教育背景"
-#         - title: "2.科研经历概述"
-#           url: "#科研经历概述"
-#         - title: "3.主干科研课题图文"
-#           url: "#主干科研课题图文"
-#         - title: "4.国家级竞赛"
-#           url: "#国家级竞赛"
-#         - title: "5.工程项目"
-#           url: "#工程项目"
-#         - title: "6.合作课题"
-#           url: "#合作课题"
+sidebar:
+  title: "目录"
+  nav:
+    - title: "关于我"
+      url: "/about"
+      children:
+        - title: "1.教育背景"
+          url: "#1-教育背景"
+        - title: "2.科研经历概述"
+          url: "#2-科研经历概述"
+        - title: "3.主干科研课题图文"
+          url: "#3-主干科研课题图文"
+        - title: "4.国家级竞赛"
+          url: "#4-国家级竞赛"
+        - title: "5.工程项目"
+          url: "#5-工程项目"
+        - title: "6.合作课题"
+          url: "#6-合作课题"
