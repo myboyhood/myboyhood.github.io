@@ -59,7 +59,7 @@ h1 {
     font-size: 25px; /* 根据需要调整字体大小 */
     font-weight: normal; /* 可选：加粗字体 */
     position: fixed; /* 固定位置，使其不随页面滚动 */
-    left: 0; /* 左侧对齐 */
+    right: 0; /* 右侧对齐 */
     // transform: translateY(-50%); /* 向上移动50% */
     width: 250px; /* 导航栏宽度 */
 
@@ -67,6 +67,10 @@ h1 {
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 保留轻微阴影 */
     border-radius: 8px; /* 添加圆角，使其更柔和 */
+}
+
+.main-content {
+    margin-right: 270px; /* 为右侧导航栏留出空间 */
 }
 
 // /* 对大屏幕的样式 */
