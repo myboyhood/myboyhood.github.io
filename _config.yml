@@ -25,10 +25,10 @@ author:
   name             : "Zhaoying Wang"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate in robotics institute, Shanghai Jiao Tong University"
-  location         : # "Shanghai, China."
+  location         : "Shanghai, China."
   employer         : # "Shanghai Jiao Tong University"
   uri              : # URL
-  email            : # "wangzhaoying@sjtu.edu.cn" 
+  email            : "wangzhaoying@sjtu.edu.cn" 
 
   # Navigation settings
   # navigation:
