@@ -9,16 +9,6 @@ toc: false
 ---
 <br/>
 
-<!-- # 目录
-- [1. 教育背景](#1-教育背景)
-- [2. 科研经历概述](#2-科研经历概述)
-- [3. 主干科研课题图文](#3-主干科研课题图文)
-- [4. 国家级竞赛](#4-国家级竞赛)
-- [5. 工程项目](#5-工程项目)
-- [6. 合作课题](#6-合作课题) -->
-
-<!-- ---
-<br/> -->
 
 # 1-教育背景
 ---
@@ -82,7 +72,7 @@ toc: false
 
 
 - ## 3.2 多机共视视觉特征实时关联与相对定位
-  该工作利用共视环境特征实现多架无人机的实时相对定位。（**机器人高水平期刊 IEEE RAL 2024 小修接收**）
+  该工作利用共视环境特征实现多架无人机的实时相对定位。（**机器人高水平期刊 IEEE RAL 2024 小修提交**）
   <!-- <iframe height=406 width=720 src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4"> -->
   <video height="406" width="720" controls>
   <source src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4" type="video/mp4">
