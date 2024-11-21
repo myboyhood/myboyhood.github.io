@@ -25,6 +25,10 @@ toc: false
 
 # 2-科研经历概述
 ---
+![collaborative_stereo](../images/robot-with-me.png "robot-with-me"){:width='900'}
+
+
+
 ## 2.1 研究概述
 - **研究背景**：在未知复杂城镇环境下，针对单机定位鲁棒性和感知范围不足的问题，致力于构建一个多机紧密协作系统，提升多机协作系统的群体定位鲁棒性与大范围感知建图能力。
 
@@ -83,6 +87,7 @@ toc: false
 - ## 3.3 基于地空协作系统的鲁棒视觉定位
   针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光源的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
   （**测量与仪器顶刊 IEEE Transactions on Instrumentation and Measurement 2022 发表**）
+  ![dual-source](../images/dual-source-vision-position.png "dual-source"){:width='768'}
   <!-- <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4"> -->
   <video height="406" width="720" controls>
   <source src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4" type="video/mp4">
