@@ -55,7 +55,7 @@ toc: false
   - 面向环境不确定性建模 无人机多模态控制与模糊决策飞行
 
 ## 2.5 学术成果
-  - 发表高水平论文7篇，2篇在审。发表包括测量与仪器顶刊 IEEE TIM，机器人高水平期刊 IEEE RAL，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE。发表机器人领域顶会论文ICRA IROS。另有机器人顶刊 IEEE TRO论文在审小修。
+  - 发表高水平论文7篇，2篇在审。发表包括测量与仪器顶刊 IEEE TIM，机器人高水平期刊 IEEE RAL，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE。发表机器人领域顶会论文ICRA IROS。另有，机器人顶刊 IEEE TRO论文二作发表。
 <br/>
 
 
@@ -96,7 +96,7 @@ toc: false
 <br/>
       
 - ## 3.4 面向动态环境的语义视觉惯性里程计与粒子占据地图
-  面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现机器人自身定位，并同步构建一个包含动态物体的占据地图。（**机器人顶刊 IEEE TRO 2024 在审小修中**）
+  面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现机器人自身定位，并同步构建一个包含动态物体的占据地图。（**机器人顶刊 IEEE TRO 2024 发表**）
   ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim")
   <!-- <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4"> -->
   <video height="396" width="704" controls>
