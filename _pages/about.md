@@ -23,10 +23,10 @@ toc: false
 ---
 <br/>
 
+
 # 2-科研经历概述
 ---
-![collaborative_stereo](../images/robot-with-me.png "robot-with-me"){:width='900'}
-
+![collaborative_stereo](../images/robot-with-me-new.png "robot-with-me"){:width='900'}
 
 
 ## 2.1 研究概述
@@ -47,15 +47,15 @@ toc: false
   - 全国大学生机器人竞赛ROBOCON**全国一等奖、南方赛冠军**（硬件组长:电路PCB设计/机械结构设计）
 
 ## 2.3 工程项目
-  - 振华重工集团港机无人机自主巡检系统开发 (第一负责人: 仿真巡检平台开发/IOS App编写/现场实验交付)
-  - 国家电网面向高压线接触式巡检的大型无人机巡检系统 (第一负责人: 轻量化机械结构设计/遥操作控制系统设计/现场实验交付)
+  - 振华重工集团港机无人机自主巡检系统开发 (**第一负责人**: 仿真巡检平台开发/IOS App编写/现场实验交付)
+  - 国家电网面向高压线接触式巡检的大型无人机巡检系统 (**第一负责人**: 轻量化机械结构设计/遥操作控制系统设计/现场实验交付)
 
 ## 2.4 合作研究
   - 无人机吸附动态移动车辆 (实时轨迹规划，全向自封闭吸盘设计)
   - 面向环境不确定性建模 无人机多模态控制与模糊决策飞行
 
 ## 2.5 学术成果
-  - 发表高水平论文7篇，2篇在审。发表包括测量与仪器顶刊 IEEE TIM，机器人高水平期刊 IEEE RAL，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE。发表机器人领域顶会论文ICRA IROS。另有，机器人顶刊 IEEE TRO论文二作发表。
+  - 共发表高水平论文10篇，2篇在审。在投与发表包括机器人顶刊IEEE TRO，测量与仪器顶刊 IEEE TIM，机器人高水平期刊 IEEE RAL，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE。发表机器人领域顶会论文ICRA IROS。
 <br/>
 
 
@@ -64,10 +64,20 @@ toc: false
 
 # 3-主干科研课题图文 
 ---
-- ## 3.1 多无人机协作立体相机系统
-  使用多架无人机上相机组成宽基线协作立体相机系统，旨在增强系统远距离感知地图能力（**机器人顶会 IROS 2024发表**）
+
+- ## 3.1 Flying Co-Stereo 飞行协作立体相机系统
+  两架无人机上相机组成宽基线协作立体相机系统，旨在城市建筑环境中增强系统远距离感知地图能力（**机器人顶刊 IEEE TRO 2025 under review**）
+  本课题与MBZUAI左星星老师合作，项目主页：[xingxingzuo.github.io/flying_co_stereo](https://xingxingzuo.github.io/flying_co_stereo/)
+  ![collaborative_stereo](../images/snapshot_fly_co_stereo.gif "Flying-Costereo"){:width='768'}
+  <video height="406" width="720" controls>
+  <source src="../images/Flying-Co-Stereo-with-music-word-author-university-crf-16.mp4" type="video/mp4">
+  </video>
+<br/>
+<br/>
+
+- ## 3.2 协作立体相机初代系统
+  使用多架无人机上相机组成宽基线协作立体相机系统，结合建筑语义轮廓，构建语义轮廓扩展的德劳内三角网格地图，旨在增强系统远距离感知地图能力（**机器人IEEE IROS 2024发表**）
   ![collaborative_stereo](../images/collaborative_stereo_illustration-v4.png "collaborative_stereo"){:width='768'}
-  <!-- <iframe height=406 width=720 src="../images/collaborative-stereo-camera-V2-264-compressed.mp4"> -->
   <video height="406" width="720" controls>
   <source src="../images/collaborative-stereo-camera-V2-264-compressed.mp4" type="video/mp4">
   </video>
@@ -75,28 +85,8 @@ toc: false
 <br/>
 
 
-- ## 3.2 多机共视视觉特征实时关联与相对定位
-  该工作利用共视环境特征实现多架无人机的实时相对定位。（**机器人高水平期刊 IEEE RAL 2024 小修提交**）
-  <!-- <iframe height=406 width=720 src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4"> -->
-  <video height="406" width="720" controls>
-  <source src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4" type="video/mp4">
-  </video>
-<br/>
-<br/>
-
-- ## 3.3 基于地空协作系统的鲁棒视觉定位
-  针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光源的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
-  （**测量与仪器顶刊 IEEE Transactions on Instrumentation and Measurement 2022 发表**）
-  ![dual-source](../images/dual-source-vision-position.png "dual-source"){:width='768'}
-  <!-- <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4"> -->
-  <video height="406" width="720" controls>
-  <source src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4" type="video/mp4">
-  </video>
-<br/>
-<br/>
-      
-- ## 3.4 面向动态环境的语义视觉惯性里程计与粒子占据地图
-  面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现机器人自身定位，并同步构建一个包含动态物体的占据地图。（**机器人顶刊 IEEE TRO 2024 发表**）
+- ## 3.3 面向动态环境的语义视觉惯性里程计与粒子占据地图
+  面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现机器人自身定位，并构建一个包含动态物体粒子形式占据地图。（**机器人顶刊 IEEE TRO 2024 发表**）
   ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim")
   <!-- <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4"> -->
   <video height="396" width="704" controls>
@@ -105,7 +95,32 @@ toc: false
 <br/>
 <br/>
 
-- ## 3.5 面向多机协同的全向鱼眼视觉惯性里程计系统
+
+- ## 3.4 基于地空协作系统的鲁棒视觉定位
+  针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光源的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
+  （**测量与仪器 IEEE Transactions on Instrumentation and Measurement 2022 发表**）
+  ![dual-source](../images/dual-source-vision-position.png "dual-source"){:width='768'}
+  <!-- <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4"> -->
+  <video height="406" width="720" controls>
+  <source src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4" type="video/mp4">
+  </video>
+<br/>
+<br/>
+
+
+- ## 3.5 多机共视视觉特征实时关联与相对定位
+  该工作利用共视环境特征实现多架无人机的实时相对定位。（**IEEE Sensors Journal 2025 发表**）
+  ![dual-source](../images/rel-MSCKF-graphic-abstract-v5.png "dual-source"){:width='768'}
+  <video height="406" width="720" controls>
+  <source src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4" type="video/mp4">
+  </video>
+<br/>
+<br/>
+
+
+      
+
+- ## 3.6 面向多机协同的全向鱼眼视觉惯性里程计系统
   设计搭建四目鱼眼相机的视觉惯性里程计，为多机协作提供全向观测。
   ![fisheye VIO](../images/four-fisheye-cameras.png "fisheye VIO"){:width='768'}
   <!-- <iframe height=396 width=720 src="../images/VIO-omni-fisheye-cameras-H264.mp4"> -->
