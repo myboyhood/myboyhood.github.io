@@ -30,32 +30,32 @@ toc: false
 
 
 ## 2.1 研究概述
-- **研究背景**：在未知复杂城镇环境下，针对单机定位鲁棒性和感知范围不足的问题，致力于构建一个多机紧密协作系统，提升多机协作系统的群体定位鲁棒性与大范围感知建图能力。
+- **研究背景**：在未知复杂城镇环境下，鉴于单机感知范围不足的问题，致力于构建一个多机紧密协作系统，提升多机协作系统的群体定位鲁棒性与大范围远距离感知建图能力。
 
-- **研究对象**：包含地-空车辆与无人机定位协作系统，以及空-空多无人机感知协作系统（构建动态宽基线立体相机）。
+- **研究对象**：包含空-空多无人机感知协作系统（构建动态宽基线协作立体相机），以及地-空之间车辆与无人机定位协作系统。
 
 - **研究算法**：
   1. 多机间基于多传感器融合的实时鲁棒相对定位。
   2. 多机视觉特征高精度实时关联。
-  3. 多机多视角大尺度地图感知与构建。
+  3. 多机多视角基于深度单目网络的大尺度地图构建。
   4. 面向多机协同的全向视觉惯性里程计。
   5. 语义视觉惯性里程计与动态地图构建。
 
 ## 2.2 竞赛经历
-  - 航天三院”如影随形”高速高精准空中对接挑战赛**优胜奖** （第一负责人:无人机硬件设计/视觉识别/伺服控制）
-  - 北斗系统“高分”全国无人飞行器智能感知竞赛**冠军**（队长:无人机机械电路设计/视觉识别/飞行策略）
-  - 全国大学生机器人竞赛ROBOCON**全国一等奖、南方赛冠军**（硬件组长:电路PCB设计/机械结构设计）
+  - 航天三院”如影随形”高速高精准空中对接挑战赛**优胜奖** （**第一负责人**:无人机硬件设计/视觉识别/伺服控制）
+  - 北斗系统“高分”全国无人飞行器智能感知竞赛**冠军**（**队长**:无人机机械电路设计/视觉识别/飞行策略）
+  - 全国大学生机器人竞赛ROBOCON**全国一等奖、南方赛冠军**（**硬件组长**:电机驱动板、陀螺仪载板电路PCB设计/机械结构设计）
 
 ## 2.3 工程项目
   - 振华重工集团港机无人机自主巡检系统开发 (**第一负责人**: 仿真巡检平台开发/IOS App编写/现场实验交付)
   - 国家电网面向高压线接触式巡检的大型无人机巡检系统 (**第一负责人**: 轻量化机械结构设计/遥操作控制系统设计/现场实验交付)
 
 ## 2.4 合作研究
-  - 无人机吸附动态移动车辆 (实时轨迹规划，全向自封闭吸盘设计)
-  - 面向环境不确定性建模 无人机多模态控制与模糊决策飞行
+  - **(空中大姿态操作)** 无人机吸附动态移动车辆 (实时轨迹规划，全向自封闭吸盘设计)
+  - **(多模态飞行控制)** 面向环境不确定性建模 无人机多模态控制与模糊决策飞行
 
 ## 2.5 学术成果
-  - 共发表高水平论文10篇，2篇在审。在投与发表包括机器人顶刊IEEE TRO，测量与仪器顶刊 IEEE TIM，机器人高水平期刊 IEEE RAL，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE。发表机器人领域顶会论文ICRA IROS。
+  - 共发表高水平论文11篇，1篇在审，其中一作6篇，二作4篇。在投与发表文章包括机器人顶刊IEEE TRO，测量与仪器顶刊 IEEE TIM，机器人高水平期刊 IEEE RAL，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE。并发表机器人顶会论文 ICRA 2024、IROS 2024。
 <br/>
 
 
@@ -69,13 +69,14 @@ toc: false
   两架无人机上相机组成宽基线协作立体相机系统，旨在城市建筑环境中增强系统远距离感知地图能力（**机器人顶刊 IEEE TRO 2025 under review**）
   本课题与MBZUAI左星星老师合作，项目主页：[xingxingzuo.github.io/flying_co_stereo](https://xingxingzuo.github.io/flying_co_stereo/)
   ![collaborative_stereo](../images/snapshot_fly_co_stereo.gif "Flying-Costereo"){:width='768'}
+  ![collaborative_stereo](../images/system-pipeline-v6.png "Flying-Costereo"){:width='768'}
   <video height="406" width="720" controls>
   <source src="../images/Flying-Co-Stereo-with-music-word-author-university-crf-16.mp4" type="video/mp4">
   </video>
 <br/>
 <br/>
 
-- ## 3.2 协作立体相机初代系统
+- ## 3.2 语义增强的协作立体相机系统
   使用多架无人机上相机组成宽基线协作立体相机系统，结合建筑语义轮廓，构建语义轮廓扩展的德劳内三角网格地图，旨在增强系统远距离感知地图能力（**机器人IEEE IROS 2024发表**）
   ![collaborative_stereo](../images/collaborative_stereo_illustration-v4.png "collaborative_stereo"){:width='768'}
   <video height="406" width="720" controls>
@@ -85,24 +86,20 @@ toc: false
 <br/>
 
 
-- ## 3.3 面向动态环境的语义视觉惯性里程计与粒子占据地图
+- ## 3.3 变基线协作立体相机系统
+  双无人机变基线立体相机系统，突破固定双目基线限制，利用双机空间可变基线实现不同深度场景高精度地图构建（**IEEE Sensors Journal 2025发表**）
+  ![collaborative_stereo](../images/FigureX_variable-baseline.png "collaborative_stereo"){:width='768'}
+  ![collaborative_stereo](../images/FigureX_diff_baseline_compare.png "collaborative_stereo"){:width='768'}
+<br/>
+<br/>
+
+
+- ## 3.4 面向动态环境的语义视觉惯性里程计与粒子占据地图
   面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现机器人自身定位，并构建一个包含动态物体粒子形式占据地图。（**机器人顶刊 IEEE TRO 2024 发表**）
   ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim")
   <!-- <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4"> -->
   <video height="396" width="704" controls>
   <source src="../images/semantic-particle-based-map.mp4" type="video/mp4">
-  </video>
-<br/>
-<br/>
-
-
-- ## 3.4 基于地空协作系统的鲁棒视觉定位
-  针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光源的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
-  （**测量与仪器 IEEE Transactions on Instrumentation and Measurement 2022 发表**）
-  ![dual-source](../images/dual-source-vision-position.png "dual-source"){:width='768'}
-  <!-- <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4"> -->
-  <video height="406" width="720" controls>
-  <source src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4" type="video/mp4">
   </video>
 <br/>
 <br/>
@@ -116,6 +113,21 @@ toc: false
   </video>
 <br/>
 <br/>
+
+
+- ## 3.6 基于地空协作系统的鲁棒视觉定位
+  针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光源的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
+  （**测量与仪器 IEEE Transactions on Instrumentation and Measurement 2022 发表**）
+  ![dual-source](../images/dual-source-vision-position.png "dual-source"){:width='768'}
+  <!-- <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4"> -->
+  <video height="406" width="720" controls>
+  <source src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4" type="video/mp4">
+  </video>
+<br/>
+<br/>
+
+
+
 
 
       
