@@ -77,8 +77,9 @@ toc: false
 <br/>
 
 - ## 3.2 语义增强的协作立体相机系统
-  使用多架无人机上相机组成宽基线协作立体相机系统，结合建筑语义轮廓，构建语义轮廓扩展的德劳内三角网格地图，旨在增强系统远距离感知地图能力（**机器人IEEE IROS 2024发表**）
-  ![collaborative_stereo](../images/collaborative_stereo_illustration-v4.png "collaborative_stereo"){:width='768'}
+  使用两架无人机上相机组成宽基线协作立体相机系统，实现双机在线位姿估计、动态双视角特征关联、最后结合建筑语义轮廓，构建语义轮廓扩展的德劳内三角网格地图，旨在增强系统远距离感知地图能力（**机器人IEEE IROS 2024发表**）
+  ![collaborative_stereo](../images/IROS24-semantic-co-stereo.gif "collaborative_stereo"){:width='768'}
+  <!-- ![collaborative_stereo](../images/collaborative_stereo_illustration-v4.png "collaborative_stereo"){:width='768'} -->
   <video height="406" width="720" controls>
   <source src="../images/collaborative-stereo-camera-V2-264-compressed.mp4" type="video/mp4">
   </video>
@@ -88,15 +89,17 @@ toc: false
 
 - ## 3.3 变基线协作立体相机系统
   双无人机变基线立体相机系统，突破固定双目基线限制，利用双机空间可变基线实现不同深度场景高精度地图构建（**IEEE Sensors Journal 2025发表**）
-  ![collaborative_stereo](../images/FigureX_variable-baseline.png "collaborative_stereo"){:width='768'}
-  ![collaborative_stereo](../images/FigureX_diff_baseline_compare.png "collaborative_stereo"){:width='768'}
+  ![VB_stereo](../images/VB-Stereo.gif "VB_stereo"){:width='768'}
+  <!-- ![collaborative_stereo](../images/FigureX_variable-baseline.png "collaborative_stereo"){:width='768'}
+  ![collaborative_stereo](../images/FigureX_diff_baseline_compare.png "collaborative_stereo"){:width='768'} -->
 <br/>
 <br/>
 
 
 - ## 3.4 面向动态环境的语义视觉惯性里程计与粒子占据地图
-  面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现机器人自身定位，并构建一个包含动态物体粒子形式占据地图。（**机器人顶刊 IEEE TRO 2024 发表**）
-  ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim")
+  面向动态环境下鲁棒自定位和动态地图构建，我们结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现机器人自身定位，并构建一个包含动态物体粒子形式占据地图。（**机器人顶刊 IEEE TRO 2024 发表**）Github：https://github.com/tud-amr/semantic_dsp_map 
+  <!-- ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim") -->
+  ![openvins_dynamic_framework-trim](../images/Semantic-DSP.gif "openvins_dynamic_framework-trim"){:width='768'}
   <!-- <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4"> -->
   <video height="396" width="704" controls>
   <source src="../images/semantic-particle-based-map.mp4" type="video/mp4">
@@ -108,6 +111,7 @@ toc: false
 - ## 3.5 多机共视视觉特征实时关联与相对定位
   该工作利用共视环境特征实现多架无人机的实时相对定位。（**IEEE Sensors Journal 2025 发表**）
   ![dual-source](../images/rel-MSCKF-graphic-abstract-v5.png "dual-source"){:width='768'}
+  ![msckf](../images/feature-associate-and-rel-MSCKF.gif "msckf"){:width='768'}
   <video height="406" width="720" controls>
   <source src="../images/A-Real-Time-Dual-Channel-Feature-Association-for-Relative-Pose-Estimation-of-UAVs-Only-results-compressed.mp4" type="video/mp4">
   </video>
@@ -116,10 +120,10 @@ toc: false
 
 
 - ## 3.6 基于地空协作系统的鲁棒视觉定位
-  针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光源的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
+  针对夜间桥梁底部巡检，提出了一个地空协作视觉定位系统，该工作使用红外-可见光双光谱投影约束的方案实现无人机相对于车辆的鲁棒视觉估计，以及视觉伺服控制，最终可随车辆引导，完成对桥梁地面的自主巡检。
   （**测量与仪器 IEEE Transactions on Instrumentation and Measurement 2022 发表**）
-  ![dual-source](../images/dual-source-vision-position.png "dual-source"){:width='768'}
-  <!-- <iframe height=406 width=720 src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4"> -->
+  <!-- ![dual-source](../images/dual-source-vision-position.png "dual-source"){:width='768'} -->
+  ![dual-source](../images/air-ground-TIM-abstract.gif "dual-source"){:width='768'}
   <video height="406" width="720" controls>
   <source src="../images/Under-Bridge-Inspection-with-a-Ground-Air-System.mp4" type="video/mp4">
   </video>
@@ -133,12 +137,13 @@ toc: false
       
 
 - ## 3.6 面向多机协同的全向鱼眼视觉惯性里程计系统
-  设计搭建四目鱼眼相机的视觉惯性里程计，为多机协作提供全向观测。
-  ![fisheye VIO](../images/four-fisheye-cameras.png "fisheye VIO"){:width='768'}
+  探索全向视觉SLAM，设计搭建四目鱼眼相机的视觉惯性里程计，为多机协作提供全向观测。
+  ![fisheye VIO](../images/omni-slam.gif "fisheye VIO"){:width='768'}
+  <!-- ![fisheye VIO](../images/four-fisheye-cameras.png "fisheye VIO"){:width='768'} -->
   <!-- <iframe height=396 width=720 src="../images/VIO-omni-fisheye-cameras-H264.mp4"> -->
-  <video height="396" width="720" controls>
-  <source src="../images/VIO-omni-fisheye-cameras-H264.mp4" type="video/mp4">
-  </video>
+  <!-- <video height="396" width="720" controls> -->
+  <!-- <source src="../images/VIO-omni-fisheye-cameras-H264.mp4" type="video/mp4"> -->
+  <!-- </video> -->
 <br/>
 <br/>
 
@@ -151,10 +156,11 @@ toc: false
 ---
 - ## 4.1 北斗系统“高分”全国无人飞行器智能感知竞赛**冠军**
   赛方要求无人机自主避障并穿越指定竞赛圈，快速抵达终点。**作为领队**提出椭圆拟合，数字识别等关键路标检测方法，带队调试四旋翼无人机。实现无人机以2.5m/s高速穿越复杂密集环境。领先亚军近一倍时间。
+  ![offline](../images/offline.gif "offline"){:width='768'}
   <!-- <iframe height=406 width=720 src="../images/offline.mp4"> -->
-  <video height="406" width="720" controls>
+  <!-- <video height="406" width="720" controls>
   <source src="../images/offline.mp4" type="video/mp4">
-  </video>
+  </video> -->
 
 - ## 4.2 航天三院”如影随形”高速高精准空中对接挑战赛**优胜奖**
   比赛要求无人机高速高精度追踪移动车辆，作为**第一负责人**搭建设计六旋翼无人机，编写视觉识别追踪、视觉伺服控制程序。飞行速度最高达到65km/h。
@@ -197,7 +203,7 @@ toc: false
 
 - ## 6.1 搭便车：无人机动态吸附移动车辆
   提出动态多模式搜索策略提升最优时间轨迹规划效率。首次实现无人机实时动态规划与精准末端控制，并设计多角度吸附装置，无人机得以敏捷姿态吸附到移动目标斜面，可提供侦查任务，被IEEE封面高度报道。（**发表在自动化顶刊 IEEE Transactions on Automation Science and Engineering 2023 发表**）
-  ![graphic-abstract](../images/graphic-abstract.png "graphic-abstract"){:width='720'}
+  ![graphic-abstract](../images/aggressive-perching-new.gif "graphic-abstract"){:width='720'}
   <!-- <iframe height=396 width=704 src="../images/TASE-hitchhiker-video-music-compressed.mp4"> -->
 
   <video height="396" width="704" controls>
