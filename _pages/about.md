@@ -115,7 +115,9 @@ toc: false
 
 
 - ## 3.5 多机共视视觉特征实时关联与相对定位
-  该工作利用共视环境特征实现多架无人机的实时相对定位。（**IEEE Sensors Journal 2025 发表**）
+  面向编队多机相对位姿估计, 本工作重构单机 MSCKF 提出多机 Multi-Rel-MSKCF，以多机 VIO 增量为预
+  测，构建相对位姿克隆滑窗，以多机共视环境特征（引导-预测实时连续特征关联）为观测更新。该工作实现了编队无人机实时相对位姿估计，
+  还可拓展至多机回环。实时性和准确性优于 PGO 方法（COVINS-G）。并在 EuRoC, VIRAL 数据集上得到验证。（**IEEE Sensors Journal 2025 发表**）
   ![dual-source](../images/rel-MSCKF-graphic-abstract-v5.png "dual-source"){:width='768'}
   ![msckf](../images/feature-associate-and-rel-MSCKF.gif "msckf"){:width='768'}
   <video height="406" width="720" controls>
@@ -138,11 +140,7 @@ toc: false
 
 
 
-
-
-      
-
-- ## 3.6 面向多机协同的全向鱼眼视觉惯性里程计系统
+- ## 3.7 面向多机协同的全向鱼眼视觉惯性里程计系统
   探索全向视觉SLAM，设计搭建四目鱼眼相机的视觉惯性里程计，为多机协作提供全向观测。
   ![fisheye VIO](../images/omni-slam.gif "fisheye VIO"){:width='768'}
   <!-- ![fisheye VIO](../images/four-fisheye-cameras.png "fisheye VIO"){:width='768'} -->
