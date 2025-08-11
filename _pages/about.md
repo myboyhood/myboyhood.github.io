@@ -157,22 +157,24 @@ toc: false
 - ## 4.1 北斗系统“高分”全国无人飞行器智能感知竞赛**冠军**
   赛方要求无人机自主避障并穿越指定竞赛圈，快速抵达终点。**作为领队**提出椭圆拟合，数字识别等关键路标检测方法，带队调试四旋翼无人机。实现无人机以2.5m/s高速穿越复杂密集环境。领先亚军近一倍时间。
   ![offline](../images/offline.gif "offline"){:width='768'}
+
   <!-- <iframe height=406 width=720 src="../images/offline.mp4"> -->
-  <!-- <video height="406" width="720" controls>
-  <source src="../images/offline.mp4" type="video/mp4">
-  </video> -->
+  <!-- <video height="406" width="720" controls> -->
+  <!-- <source src="../images/offline.mp4" type="video/mp4"> -->
+  <!-- </video> -->
 
 - ## 4.2 航天三院”如影随形”高速高精准空中对接挑战赛**优胜奖**
-  比赛要求无人机高速高精度追踪移动车辆，作为**第一负责人**搭建设计六旋翼无人机，编写视觉识别追踪、视觉伺服控制程序。飞行速度最高达到65km/h。
+  比赛要求无人机高速高精度追踪移动车辆，作为**第一负责人**搭建设计六旋翼无人机，编写视觉识别追踪、视觉伺服控制程序。飞行速度最高达到**65km/h**。
+  ![ruyingsuixing2020](../images/ruyingsuixing2020.gif "ruyingsuixing2020"){:width='768'}
   <!-- <iframe height=406 width=720 src="../images/high-speed-flight-ruyingsuixing-music-compressed.mp4"> -->
-  <video height="406" width="720" controls>
-  <source src="../images/high-speed-flight-ruyingsuixing-music-compressed.mp4" type="video/mp4">
-  </video>
+  <!-- <video height="406" width="720" controls> -->
+  <!-- <source src="../images/high-speed-flight-ruyingsuixing-music-compressed.mp4" type="video/mp4"> -->
+  <!-- </video> -->
 
 - ## 4.3 全国大学生机器人竞赛ROBOCON**全国一等奖、南方赛冠军**
-  作为硬件组组长，负责电路PCB设计，如主控板、电机驱动板。同时参与轮式机器人机械结构设计与搭建。
-  ![Champion of ROBOCON](../images/robocon.jpg "Champion of ROBOCON"){:width='768'}
-
+  作为**硬件组组长**，负责电路PCB设计，如主控板、电机驱动板。同时参与轮式机器人机械结构设计与搭建。
+  ![Champion of ROBOCON](../images/Robocon-hardware.png "Champion of ROBOCON"){:width='768'}
+  ![Champion of ROBOCON](../images/robocon2018small.gif "Champion of ROBOCON"){:width='768'}
 ---
 <br/>
 <br/>
@@ -198,6 +200,7 @@ toc: false
 <br/>
 <br/>
 
+
 # 6-合作课题
 ---
 
@@ -216,7 +219,7 @@ toc: false
   针对无人机在密集环境中飞行模式切换问题，提出环境不确定度评估模型，并建立模糊决策，以最小化不确定性的策略，评估无人机最大飞行速度。设计多种多模态飞行控制策略，实现多种复杂环境下高速安全飞行。
   （**发表在工业电子顶刊 IEEE Transactions on Industrial Electronics 2023**）
   <!-- <iframe height=396 width=704 src="../images/Video-Fast_Flight_of_the_Flying_Robot_With_Fuzzy_Decision_and_Multimodal_Control_Tackling_Uncertainties-compressed.mp4"> -->
-  ![fuzzy_model_control](../images/fuzzy_model_control.png "fuzzy_model_control"){:width='720'}
+  ![fuzzy_model_control](../images/uncertainty-multimodel-flying.gif "fuzzy_model_control"){:width='720'}
   <video height="396" width="704" controls>
   <source src="../images/Video-Fast_Flight_of_the_Flying_Robot_With_Fuzzy_Decision_and_Multimodal_Control_Tackling_Uncertainties-compressed.mp4" type="video/mp4">
   </video>
