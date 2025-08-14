@@ -105,6 +105,7 @@ toc: false
 - ## 3.4 面向动态环境的语义视觉惯性里程计与粒子占据地图
   面向动态车辆、行人环境下传感器噪声、实例分割和跟踪误差以及物体的动态运动这些挑战，本研究结合语义分割和深度学习视觉特征，基于OpenVINS框架，实现机器人自身定位，并提出一种基于语义粒子占据地图，使用具有增强实例状态的粒子来估计物体的概率假设密度（PHD），并对环境进行隐式建模。并可输出一个栅格占据地图用于导航。（**机器人顶刊 IEEE TRO 2024 发表**）Github：https://github.com/tud-amr/semantic_dsp_map 
   <!-- ![openvins_dynamic_framework-trim](../images/openvins_dynamic_framework-trim.png "openvins_dynamic_framework-trim") -->
+  ![particle_map](../images/particle_map.png "particle_map"){:width='768'}
   ![openvins_dynamic_framework-trim](../images/Semantic-DSP.gif "openvins_dynamic_framework-trim"){:width='768'}
   <!-- <iframe height=396 width=704 src="../images/semantic-particle-based-map.mp4"> -->
   <video height="396" width="704" controls>
