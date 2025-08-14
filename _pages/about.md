@@ -52,12 +52,12 @@ toc: false
   - **(空中大姿态操作)** 无人机吸附动态移动车辆 (实时轨迹规划，全向自封闭吸盘设计)
   - **(多模态飞行控制)** 面向环境不确定性建模 无人机多模态控制与模糊决策飞行
 
-## 2.3 竞赛经历
+<!-- ## 2.3 竞赛经历
   - 全国大学生机器人竞赛ROBOCON**全国一等奖、南方赛冠军**（**硬件组长**:电机驱动板、陀螺仪载板电路PCB设计/机械结构设计）
   - 北斗系统“高分”全国无人飞行器智能感知竞赛**冠军**（**队长**:无人机机械电路设计/视觉识别/飞行策略）
-  - 航天三院”如影随形”高速高精准空中对接挑战赛**优胜奖** （**第一负责人**:无人机硬件设计/视觉识别/伺服控制）
+  - 航天三院”如影随形”高速高精准空中对接挑战赛**优胜奖** （**第一负责人**:无人机硬件设计/视觉识别/伺服控制） -->
 
-## 2.4 工程项目
+## 2.3 工程项目
   - 振华重工集团港机无人机自主巡检系统开发 (**第一负责人**: 仿真巡检平台开发/IOS App编写/现场实验交付)
   - 国家电网面向高压线接触式巡检的大型无人机巡检系统 (**第一负责人**: 轻量化机械结构设计/遥操作控制系统设计/现场实验交付)
 
@@ -159,7 +159,13 @@ toc: false
 
 # 4-国家级竞赛
 ---
-- ## 4.1 北斗系统“高分”全国无人飞行器智能感知竞赛**冠军**
+
+- ## 4.1 全国大学生机器人竞赛ROBOCON**全国一等奖、南方赛冠军**
+  作为**硬件组组长**，负责电路PCB设计，如主控板、电机驱动板。同时参与轮式机器人机械结构设计与搭建。
+  ![Champion of ROBOCON](../images/Robocon-hardware.png "Champion of ROBOCON"){:width='768'}
+  ![Champion of ROBOCON](../images/robocon2018small.gif "Champion of ROBOCON"){:width='768'}
+
+- ## 4.2 北斗系统“高分”全国无人飞行器智能感知竞赛**冠军**
   赛方要求无人机自主避障并穿越指定竞赛圈，快速抵达终点。**作为领队**提出椭圆拟合，数字识别等关键路标检测方法，带队调试四旋翼无人机。实现无人机以2.5m/s高速穿越复杂密集环境。领先亚军近一倍时间。
   ![offline](../images/offline.gif "offline"){:width='768'}
 
@@ -168,7 +174,7 @@ toc: false
   <!-- <source src="../images/offline.mp4" type="video/mp4"> -->
   <!-- </video> -->
 
-- ## 4.2 航天三院”如影随形”高速高精准空中对接挑战赛**优胜奖**
+- ## 4.3 航天三院”如影随形”高速高精准空中对接挑战赛**优胜奖**
   比赛要求无人机高速高精度追踪移动车辆，作为**第一负责人**搭建设计六旋翼无人机，编写视觉识别追踪、视觉伺服控制程序。飞行速度最高达到**65km/h**。
   ![ruyingsuixing2020](../images/ruyingsuixing2020.gif "ruyingsuixing2020"){:width='768'}
   <!-- <iframe height=406 width=720 src="../images/high-speed-flight-ruyingsuixing-music-compressed.mp4"> -->
@@ -176,10 +182,6 @@ toc: false
   <!-- <source src="../images/high-speed-flight-ruyingsuixing-music-compressed.mp4" type="video/mp4"> -->
   <!-- </video> -->
 
-- ## 4.3 全国大学生机器人竞赛ROBOCON**全国一等奖、南方赛冠军**
-  作为**硬件组组长**，负责电路PCB设计，如主控板、电机驱动板。同时参与轮式机器人机械结构设计与搭建。
-  ![Champion of ROBOCON](../images/Robocon-hardware.png "Champion of ROBOCON"){:width='768'}
-  ![Champion of ROBOCON](../images/robocon2018small.gif "Champion of ROBOCON"){:width='768'}
 ---
 <br/>
 <br/>
