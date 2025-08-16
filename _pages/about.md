@@ -75,6 +75,8 @@ toc: false
   两架无人机上相机组成宽基线协作立体相机系统，旨在城市建筑环境中增强系统远距离感知地图能力（**机器人顶刊 IEEE TRO 2025 under review**）
   本课题与MBZUAI左星星老师合作，项目主页：[xingxingzuo.github.io/flying_co_stereo](https://xingxingzuo.github.io/flying_co_stereo/)
   ![collaborative_stereo](../images/snapshot_fly_co_stereo.gif "Flying-Costereo"){:width='768'}
+  ![collaborative_stereo](../images/dense-mapping-coding-18.gif "Flying-Costereo"){:width='768'}
+  
   ![collaborative_stereo](../images/system-pipeline-v6.png "Flying-Costereo"){:width='768'}
   <video height="406" width="720" controls>
   <source src="../images/Flying-Co-Stereo-with-music-word-author-university-crf-16.mp4" type="video/mp4">
