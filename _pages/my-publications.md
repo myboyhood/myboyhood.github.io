@@ -5,15 +5,15 @@ permalink: /my-publications/
 author_profile: true
 ---
 
-[1] **Z. Wang**, W. Dong, "A Collaborative Stereo Camera with Two UAVs for Long-distance Mapping of Urban Buildings," in *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2024, Abu Dhabi, UAE.
+[1] **Z. Wang**, X. Zuo, W. Dong, "Flying Co-Stereo: Enabling Long-Range Aerial Dense Mapping via Collaborative Stereo Vision of Dynamic-Baseline" in *IEEE Transactions on Robotics (Accepted)*, 2025.
 
-[2] **Z. Wang**, X. Zuo, W. Dong, "Flying Co-Stereo: Enabling Long-Range Aerial Dense Mapping via Collaborative Stereo Vision of Dynamic-Baseline" in *IEEE Transactions on Robotics (revision)*, 2025.
+[2] **Z. Wang**, W. Dong, "A Collaborative Stereo Camera with Two UAVs for Long-distance Mapping of Urban Buildings," in *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2024, Abu Dhabi, UAE.
 
 [3] **Z. Wang**, S. Liu, G. Chen and W. Dong, "Robust Visual Positioning of the UAV for the Under Bridge Inspection With a Ground Guided Vehicle," in *IEEE Transactions on Instrumentation and Measurement*, vol. 71, pp. 1-10, 2022.
 
 [4] **Z. Wang**, W. Dong, "Toward Aerial Collaborative Stereo: Real-Time Cross-Camera Feature Association and Relative Pose Estimation for UAVs," in *IEEE Sensors Journal*, vol. 25, no. 6, pp. 9861-9875, 2025. 
 
-[5] **Z. Wang**, W. Dong, "Long-Range Dense Mapping with Enhanced Accuracy via a Flying Variable-Baseline Stereo System," in *IEEE Sensors Journal*, 2025.
+[5] **Z. Wang**, W. Dong, "Long-Range Dense Mapping with Enhanced Accuracy via a Flying Variable-Baseline Stereo System," in *IEEE Sensors Journal*, vol. 25, no. 18, pp. 35131-35143，2025.  
 
 [6] **Z. Wang**, X. Li and W. Hu, "A Flexible Towed Aerial Robot System for Stable X-ray Inspection of Power Lines," *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, Koh Samui, Thailand, 2023, pp. 1-6.
 
