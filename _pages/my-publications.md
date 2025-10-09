@@ -23,8 +23,8 @@ author_profile: true
 
 [9] W. Hu, **Z. Wang**, P. Xu, W. Dong, " Fast Flight of the flying robot with Fuzzy Decision and Multimodal Control Tackling Uncertainties." *IEEE Transactions on Industrial Electronics*, vol. 71, no. 8, pp. 9192-9201, 2023. 
 
-[10] S. Liu, W. Hu, **Z. Wang**, W. Dong, X. Sheng, et al. Perching on Moving Inclined Surfaces using Uncertainty Tolerant Planner and Thrust Regulation. *Robotics and Autonomous Systems*, 2024.
+[10] Y. Zhang, **Z. Wang** and W. Dong, "An Aerial Non-contact Detection System For Quayside Crane Using A Hexacopter," *IEEE International Conference on Real-time Computing and Robotics (RCAR)*, Datong, China, 2023, pp. 774-779. 
 
-[11] Y. Zhang, **Z. Wang** and W. Dong, "An Aerial Non-contact Detection System For Quayside Crane Using A Hexacopter," *IEEE International Conference on Real-time Computing and Robotics (RCAR)*, Datong, China, 2023, pp. 774-779. 
+[11] S. Liu, W. Hu, **Z. Wang**, W. Dong, X. Sheng, et al. Perching on Moving Inclined Surfaces using Uncertainty Tolerant Planner and Thrust Regulation. *Robotics and Autonomous Systems*, 2024.
 
 [12] G. Chen, P. Zhang, **Z. Wang** and W. Dong, "TRP-Controller: An Efficient Anti-Saturation Controller for Quadrotors Performing Yaw-low-priority Motions," *International Conference on Mechatronics and Machine Vision in Practice*, 2021.
