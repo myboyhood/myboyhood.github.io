@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Zhaoying Wang / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Zhaoying Wang"
-description              : &description "PhD candidate in robotics institute of Shanghai Jiao Tong University"
+description              : &description "PhD from the Robotics Institute of Shanghai Jiao Tong University, currently working as an Algorithm Engineer at DJI."
 url                      : https://myboyhood.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "myboyhood/myboyhood.github.io"
@@ -24,11 +24,11 @@ author:
   avatar           : "Photo-of-ZhaoyingWang.png"
   name             : "Zhaoying Wang"
   pronouns         : # example: "she/her"  
-  bio              : "PhD candidate in robotics institute, Shanghai Jiao Tong University"
+  bio              : "PhD from the Robotics Institute of Shanghai Jiao Tong University, currently working as an Algorithm Engineer at DJI."
   location         : "Shanghai, China."
   employer         : # "Shanghai Jiao Tong University"
   uri              : # URL
-  email            : "wangzhaoying@sjtu.edu.cn" 
+  email            : "2390441535@qq.com"
 
   # Navigation settings
   # navigation:
