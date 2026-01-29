@@ -19,7 +19,7 @@ toc: false
 | 本科 | 武汉大学 **(GPA 排名 1/133)**    | 机械设计制造及其自动化        | 2015 - 2019 |
 
 ## 1.1 学术
-  - 发表高水平论文**12篇**，其中一作6篇，二作4篇。发表文章包括机器人顶刊 **IEEE TRO** 2篇（一作/二作），测量与仪器顶刊 IEEE TIM，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE，测量与传感 IEEE Sensor Journal。并发表机器人顶会论文 **ICRA 2024、IROS 2024**。
+  - 发表高水平论文**12篇**，其中一作6篇，二作4篇。发表文章包括机器人顶刊 **IEEE TRO 2篇**（一作/二作），测量与仪器顶刊 IEEE TIM，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE，测量与传感 IEEE Sensor Journal。并发表机器人顶会论文 **ICRA 2024、IROS 2024**。
 
 ## 1.2 竞赛获奖
   - **国家奖学金** / 上海交大A等奖学金 / 动机十佳年度人物
@@ -27,9 +27,9 @@ toc: false
   - 北斗“高分”全国无人飞行器智能感知竞赛**冠军**（**队长**）
   - 航天三院“如影随形”高速高精准空中对接挑战赛**优胜奖**（**第一负责人**）
 
-## 1.3 交流
-  - **大疆车载** SLAM-NN 算法探索实习 2024.08
-  - **MBZUAI** [左星星课题组](https://xingxingzuo.github.io/) 短期访问 视觉雷达重建 （2025.10 预计） 
+## 1.3 业界
+  - **大疆-车载** SLAM-NN 算法 实习生 2024.06-2024.09
+  - **大疆-飞行系统** 感知定位算法工程师 2026.01-至今 
 
 ---
 <br/>
@@ -77,7 +77,7 @@ toc: false
 ---
 
 - ## 3.1 Flying Co-Stereo 飞行协作立体相机系统
-  两架无人机上相机组成宽基线协作立体相机系统，旨在城市建筑环境中增强系统远距离感知地图能力（**机器人顶刊 IEEE TRO 2025 接收**）
+  两架无人机上相机组成宽基线协作立体相机系统，旨在城市建筑环境中增强系统远距离感知地图能力（**机器人顶刊 IEEE TRO 2026 发表**）
   本课题与MBZUAI左星星老师合作，项目主页：[xingxingzuo.github.io/flying_co_stereo](https://xingxingzuo.github.io/flying_co_stereo/)
   ![collaborative_stereo](../images/snapshot_fly_co_stereo.gif "Flying-Costereo"){:width='768'}
   ![collaborative_stereo](../images/dense-mapping-coding-18.gif "Flying-Costereo"){:width='768'}
@@ -90,7 +90,7 @@ toc: false
 <br/>
 
 - ## 3.2 语义增强的协作立体相机系统
-  使用两架无人机上相机组成宽基线协作立体相机系统，实现双机在线位姿估计、动态双视角特征关联、最后结合建筑语义轮廓，构建语义轮廓扩展的德劳内三角网格地图，旨在增强系统远距离感知地图能力（**机器人IEEE IROS 2024发表**）
+  使用两架无人机上相机组成宽基线协作立体相机系统，实现双机在线位姿估计、动态双视角特征关联、最后结合建筑语义轮廓，构建语义轮廓扩展的德劳内三角网格地图，旨在增强系统远距离感知地图能力（**机器人IEEE IROS 2024 发表**）
   ![collaborative_stereo](../images/IROS24-semantic-co-stereo.gif "collaborative_stereo"){:width='768'}
   <!-- ![collaborative_stereo](../images/collaborative_stereo_illustration-v4.png "collaborative_stereo"){:width='768'} -->
   <video height="406" width="720" controls>

@@ -5,7 +5,7 @@ permalink: /my-publications/
 author_profile: true
 ---
 
-[1] **Z. Wang**, X. Zuo, W. Dong, "Flying Co-Stereo: Enabling Long-Range Aerial Dense Mapping via Collaborative Stereo Vision of Dynamic-Baseline" in *IEEE Transactions on Robotics (Accepted)*, 2025.
+[1] **Z. Wang**, X. Zuo, W. Dong, "Flying Co-Stereo: Enabling Long-Range Aerial Dense Mapping via Collaborative Stereo Vision of Dynamic-Baseline" in *IEEE Transactions on Robotics* doi: 10.1109/TRO.2026.3658293, 2026.
 
 [2] **Z. Wang**, W. Dong, "A Collaborative Stereo Camera with Two UAVs for Long-distance Mapping of Urban Buildings," in *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2024, Abu Dhabi, UAE.
 
