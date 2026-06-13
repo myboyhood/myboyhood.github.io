@@ -20,6 +20,7 @@ toc: false
 
 ## 1.1 学术
   - 发表高水平论文**12篇**，其中一作6篇，二作4篇。发表文章包括机器人顶刊 **IEEE TRO 2篇**（一作/二作），测量与仪器顶刊 IEEE TIM，自动化顶刊 IEEE TASE, 工业电子顶刊 IEEE TIE，测量与传感 IEEE Sensor Journal。并发表机器人顶会论文 **ICRA 2024、IROS 2024**。
+  - 曾担任Nature Communication、IEEE IROS/ICRA 审稿人
 
 ## 1.2 竞赛获奖
   - **国家奖学金** / 上海交大A等奖学金 / 动机十佳年度人物
